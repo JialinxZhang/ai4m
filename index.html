@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta.title">
+      AI4M · 声乐学习作业平台 - 面向机构的AI声乐教学解决方案
+    </title>
+    <meta
+      name="description"
+      content="AI4M 面向音乐培训机构的声乐学习作业平台，连接老师与学生，通过作业布置、提交与AI智能评估，提升声乐教学效率与教学质量。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="page-gradient"></div>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">
+          <div class="logo-mark">
+            <span class="logo-mark-inner">AI</span>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name">AI4M</span>
+            <span class="logo-subtitle" data-i18n="logo.subtitle">
+              Vocal Learning Platform
+            </span>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="#product" class="nav-link" data-i18n="nav.product">产品亮点</a>
+          <a href="#solution" class="nav-link" data-i18n="nav.solution">解决方案</a>
+          <a href="#ai" class="nav-link" data-i18n="nav.ai">AI 能力</a>
+          <a href="#scenarios" class="nav-link" data-i18n="nav.scenarios">典型场景</a>
+          <a
+            href="#contact"
+            class="nav-link nav-link-primary"
+            data-i18n="nav.demo"
+          >
+            预约演示
+          </a>
+          <div class="lang-switch" aria-label="Language switch">
+            <button
+              class="lang-btn is-active"
+              type="button"
+              data-lang-btn="zh"
+            >
+              中
+            </button>
+            <button class="lang-btn" type="button" data-lang-btn="en">EN</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero reveal-on-scroll">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <div class="hero-tagline" data-i18n="hero.tagline">
+              面向音乐培训机构的 AI 声乐教学基础设施
+            </div>
+            <h1 class="hero-title">
+              <span data-i18n="hero.title.line1">让每一次练声</span><br />
+              <span data-i18n="hero.title.line2">都有专业 AI 老师陪练</span>
+            </h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">
+              AI4M
+              将作业布置、练习提交、智能评估与教学数据统一到一套平台中，帮助机构构建标准化的声乐教学闭环，让老师更专注于“教”，让学生更清楚如何“练”。
+            </p>
+            <div class="hero-cta-group">
+              <a
+                href="#contact"
+                class="btn btn-primary"
+                data-i18n="hero.cta.primary"
+              >
+                预约一对一产品演示
+              </a>
+              <a href="#ai" class="btn btn-ghost" data-i18n="hero.cta.secondary">
+                了解 AI 评估能力
+              </a>
+            </div>
+            <div class="hero-meta">
+              <div class="hero-meta-item">
+                <span class="meta-label" data-i18n="hero.meta.target.label">
+                  适用对象
+                </span>
+                <span class="meta-value" data-i18n="hero.meta.target.value">
+                  声乐培训机构 / 音乐学校
+                </span>
+              </div>
+              <div class="hero-meta-item">
+                <span class="meta-label" data-i18n="hero.meta.capability.label">
+                  核心能力
+                </span>
+                <span class="meta-value" data-i18n="hero.meta.capability.value">
+                  作业闭环 · AI 评估 · 作业库
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="hero-panel-header">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-amber"></span>
+              <span class="dot dot-green"></span>
+              <span class="panel-title">AI 声乐评估 · 实时预览</span>
+            </div>
+            <div class="hero-panel-body">
+              <div class="score-card">
+                <div class="score-main">
+                  <div class="score-label" data-i18n="hero.score.label">
+                    综合得分
+                  </div>
+                  <div class="score-value">92</div>
+                  <div class="score-level" data-i18n="hero.score.level">
+                    A · 音准优秀
+                  </div>
+                </div>
+                <div class="score-tags">
+                  <span class="score-tag" data-i18n="hero.score.tag1">
+                    音准稳定
+                  </span>
+                  <span class="score-tag" data-i18n="hero.score.tag2">
+                    高音控制良好
+                  </span>
+                  <span
+                    class="score-tag score-tag-soft"
+                    data-i18n="hero.score.tag3"
+                  >
+                    咬字略显含混
+                  </span>
+                </div>
+              </div>
+
+              <div class="chart-group">
+                <div class="chart-card">
+                  <div class="chart-title" data-i18n="hero.chart.wave">
+                    波形图
+                  </div>
+                  <div class="chart-wave"></div>
+                </div>
+                <div class="chart-card">
+                  <div class="chart-title" data-i18n="hero.chart.pitch">
+                    音高曲线
+                  </div>
+                  <div class="chart-pitch"></div>
+                </div>
+              </div>
+
+              <div class="hero-panel-footer">
+                <div class="footer-col">
+                  <div class="footer-label" data-i18n="hero.footer.model.label">
+                    分析模型
+                  </div>
+                  <div class="footer-value" data-i18n="hero.footer.model.value">
+                    Basic Pitch + 规则打分
+                  </div>
+                </div>
+                <div class="footer-col">
+                  <div
+                    class="footer-label"
+                    data-i18n="hero.footer.comment.label"
+                  >
+                    评语生成
+                  </div>
+                  <div
+                    class="footer-value"
+                    data-i18n="hero.footer.comment.value"
+                  >
+                    固定模板 / 大模型
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Highlights -->
+      <section id="product" class="section reveal-on-scroll">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title" data-i18n="product.title">
+              围绕“作业闭环”设计的一体化平台
+            </h2>
+            <p class="section-subtitle" data-i18n="product.subtitle">
+              从布置到评估，每一步都为声乐教学场景而生，帮助机构沉淀可复用的教学资产。
+            </p>
+          </div>
+
+          <div class="grid grid-3">
+            <div class="card">
+              <div class="card-icon card-icon-blue"></div>
+              <h3 class="card-title" data-i18n="product.card1.title">
+                标准化作业闭环
+              </h3>
+              <p class="card-text" data-i18n="product.card1.text">
+                支持老师一键布置练声与歌曲作业，学生在 App
+                中录制提交，AI 自动完成评估并生成报告，形成完整的「布置-完成-提交-评估-反馈」闭环。
+              </p>
+              <ul class="card-list">
+                <li data-i18n="product.card1.item1">多选学生 / 按班级布置</li>
+                <li data-i18n="product.card1.item2">截止时间与提醒机制</li>
+                <li data-i18n="product.card1.item3">
+                  历史作业与评估记录沉淀
+                </li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <div class="card-icon card-icon-purple"></div>
+              <h3 class="card-title" data-i18n="product.card2.title">
+                为声乐场景定制的 AI 评估
+              </h3>
+              <p class="card-text" data-i18n="product.card2.text">
+                基于 Basic Pitch 音高提取与规则打分，对音准稳定性、高音控制等维度进行量化评分，并输出可视化波形与音高曲线辅助老师判断。
+              </p>
+              <ul class="card-list">
+                <li data-i18n="product.card2.item1">
+                  0–100 综合分 + 等级
+                </li>
+                <li data-i18n="product.card2.item2">
+                  音高曲线 / 波形图可视化
+                </li>
+                <li data-i18n="product.card2.item3">AI 评语 + 老师最终确认</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <div class="card-icon card-icon-amber"></div>
+              <h3 class="card-title" data-i18n="product.card3.title">
+                可持续演进的作业与数据资产
+              </h3>
+              <p class="card-text" data-i18n="product.card3.text">
+                内置分阶段声乐作业库，支持机构自建作业与版本迭代；通过机构级数据总览，帮助管理者看到真实的教学效果与学员活跃度。
+              </p>
+              <ul class="card-list">
+                <li data-i18n="product.card3.item1">
+                  练声 / 歌曲 / 乐理多种类型
+                </li>
+                <li data-i18n="product.card3.item2">
+                  按阶段、难度、主题分类
+                </li>
+                <li data-i18n="product.card3.item3">
+                  机构维度作业完成率统计
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Solution -->
+      <section id="solution" class="section section-alt reveal-on-scroll">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title" data-i18n="solution.title">
+              为三类核心角色而设计的解决方案
+            </h2>
+            <p class="section-subtitle" data-i18n="solution.subtitle">
+              同一套平台，为老师、学生和机构管理者分别提供最贴合日常工作与学习流程的体验。
+            </p>
+          </div>
+
+          <div class="grid grid-3">
+            <div class="role-card">
+              <div class="role-badge" data-i18n="solution.teacher.badge">
+                老师视角
+              </div>
+              <h3 class="card-title" data-i18n="solution.teacher.title">
+                高效管理每一位学生的练习
+              </h3>
+              <p class="card-text" data-i18n="solution.teacher.text">
+                老师首页即是学生列表，清晰标记未交作业、完成情况与最新评分，一眼看出谁需要重点关注。
+              </p>
+              <ul class="card-list">
+                <li data-i18n="solution.teacher.item1">
+                  学生维度作业概况
+                </li>
+                <li data-i18n="solution.teacher.item2">
+                  一键布置常用作业组合
+                </li>
+                <li data-i18n="solution.teacher.item3">
+                  AI 评估结果可查看可编辑
+                </li>
+              </ul>
+            </div>
+
+            <div class="role-card">
+              <div
+                class="role-badge role-badge-green"
+                data-i18n="solution.student.badge"
+              >
+                学生视角
+              </div>
+              <h3 class="card-title" data-i18n="solution.student.title">
+                把复杂的声乐练习变成清晰可执行的任务
+              </h3>
+              <p class="card-text" data-i18n="solution.student.text">
+                学生只需要打开 App 按引导完成练声、歌曲演唱并提交，就能在短时间内看到客观、可理解的反馈。
+              </p>
+              <ul class="card-list">
+                <li data-i18n="solution.student.item1">
+                  待办作业清晰分组展示
+                </li>
+                <li data-i18n="solution.student.item2">
+                  内置录音/录视频提交
+                </li>
+                <li data-i18n="solution.student.item3">
+                  可回看历史作业与评估
+                </li>
+              </ul>
+            </div>
+
+            <div class="role-card">
+              <div
+                class="role-badge role-badge-slate"
+                data-i18n="solution.org.badge"
+              >
+                机构视角
+              </div>
+              <h3 class="card-title" data-i18n="solution.org.title">
+                教学质量与运营状况一屏尽览
+              </h3>
+              <p class="card-text" data-i18n="solution.org.text">
+                机构管理员可统一管理师生账号、作业库与关键指标，用真实数据支撑课程优化与教学决策。
+              </p>
+              <ul class="card-list">
+                <li data-i18n="solution.org.item1">
+                  师生账号一站式管理
+                </li>
+                <li data-i18n="solution.org.item2">
+                  机构作业库自建与维护
+                </li>
+                <li data-i18n="solution.org.item3">
+                  作业完成率与学员活跃度
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AI Capabilities -->
+      <section id="ai" class="section reveal-on-scroll">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title" data-i18n="ai.title">
+              从 Demo 到可落地的 AI 声乐评估能力
+            </h2>
+            <p class="section-subtitle" data-i18n="ai.subtitle">
+              基于开源模型与可解释规则构建的 AI 评估引擎，既追求音乐教育的专业性，也兼顾系统的可扩展性与可落地性。
+            </p>
+          </div>
+
+          <div class="ai-layout">
+            <div class="ai-column">
+              <h3 class="ai-title" data-i18n="ai.current.title">
+                当前 Demo 能力
+              </h3>
+              <ul class="ai-list">
+                <li>
+                  <span class="ai-label" data-i18n="ai.current.item1.label">
+                    音准分析（P0）
+                  </span>
+                  <span class="ai-desc" data-i18n="ai.current.item1.desc">
+                    提取演唱音高序列，对比目标调性与音程，量化音准稳定性。
+                  </span>
+                </li>
+                <li>
+                  <span class="ai-label" data-i18n="ai.current.item2.label">
+                    综合得分（P0）
+                  </span>
+                  <span class="ai-desc" data-i18n="ai.current.item2.desc">
+                    基于规则的 0–100 分制评分，并映射为 A–E 等级，便于教学沟通。
+                  </span>
+                </li>
+                <li>
+                  <span class="ai-label" data-i18n="ai.current.item3.label">
+                    评语生成（P0）
+                  </span>
+                  <span class="ai-desc" data-i18n="ai.current.item3.desc">
+                    按分数区间匹配固定模板，或调用大模型（如 qwen-turbo）生成自然语言评语。
+                  </span>
+                </li>
+                <li>
+                  <span class="ai-label" data-i18n="ai.current.item4.label">
+                    可视化报告（P0）
+                  </span>
+                  <span class="ai-desc" data-i18n="ai.current.item4.desc">
+                    展示波形与音高曲线，让学生“看见”自己的演唱问题。
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="ai-column ai-column-roadmap">
+              <h3 class="ai-title" data-i18n="ai.roadmap.title">
+                可演进路线
+              </h3>
+              <div class="roadmap">
+                <div class="roadmap-item">
+                  <div class="roadmap-tag" data-i18n="ai.roadmap.stage1.tag">
+                    Demo 阶段 · 1–2 周
+                  </div>
+                  <p class="roadmap-text" data-i18n="ai.roadmap.stage1.text">
+                    以 Basic Pitch + 规则打分为核心，快速搭建可体验的 AI 评估能力，为机构展示产品方向。
+                  </p>
+                </div>
+                <div class="roadmap-item">
+                  <div
+                    class="roadmap-tag roadmap-tag-soft"
+                    data-i18n="ai.roadmap.stage2.tag"
+                  >
+                    MVP · 3–4 个月
+                  </div>
+                  <p class="roadmap-text" data-i18n="ai.roadmap.stage2.text">
+                    引入更多声乐维度（节奏、气息、音色等）的评估因子，连接作业布置与机构数据模块，形成完整产品闭环。
+                  </p>
+                </div>
+                <div class="roadmap-item">
+                  <div
+                    class="roadmap-tag roadmap-tag-soft"
+                    data-i18n="ai.roadmap.stage3.tag"
+                  >
+                    进阶版本
+                  </div>
+                  <p class="roadmap-text" data-i18n="ai.roadmap.stage3.text">
+                    支持与示范音频、历史作业的对比分析，提供逐句、逐段的精细化反馈，为专业院校与大型机构提供更高阶的教学工具。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scenarios -->
+      <section id="scenarios" class="section section-alt reveal-on-scroll">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title" data-i18n="scenarios.title">
+              典型落地场景
+            </h2>
+            <p class="section-subtitle" data-i18n="scenarios.subtitle">
+              将 AI4M 嵌入到声乐教学日常，让“课上教什么、课后怎么练、学得怎么样”有据可依。
+            </p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div
+                  class="timeline-label"
+                  data-i18n="scenarios.item1.label"
+                >
+                  场景一 · 日常练声作业
+                </div>
+                <h3 class="timeline-title" data-i18n="scenarios.item1.title">
+                  老师 3 步布置，学生随时随地练习
+                </h3>
+                <p class="timeline-text" data-i18n="scenarios.item1.text">
+                  老师在课后选择适配阶段的练声作业，一键布置给全班；学生在家中根据作业要求录制演唱并提交，AI
+                  在几十秒内给出音准反馈与综合评分。
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div
+                  class="timeline-label"
+                  data-i18n="scenarios.item2.label"
+                >
+                  场景二 · 考级 / 汇报演出前
+                </div>
+                <h3 class="timeline-title" data-i18n="scenarios.item2.title">
+                  用客观数据制定针对性冲刺计划
+                </h3>
+                <p class="timeline-text" data-i18n="scenarios.item2.text">
+                  对目标曲目进行多次录制与评估，把每次练习的音高曲线与得分变化沉淀下来，帮助老师和学生一起找到最需要加强的段落。
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <div
+                  class="timeline-label"
+                  data-i18n="scenarios.item3.label"
+                >
+                  场景三 · 机构教研与课程优化
+                </div>
+                <h3 class="timeline-title" data-i18n="scenarios.item3.title">
+                  看见“作业完成率”背后的教学质量
+                </h3>
+                <p class="timeline-text" data-i18n="scenarios.item3.text">
+                  管理者可以按班级、课程、老师维度查看作业完成情况与平均得分，识别教学瓶颈与课程结构问题，为下一轮课程设计提供依据。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section section-contact reveal-on-scroll">
+        <div class="container contact-inner">
+          <div class="contact-text">
+            <h2 class="section-title" data-i18n="contact.title">
+              预约一场面向您机构的专属演示
+            </h2>
+            <p class="section-subtitle" data-i18n="contact.subtitle">
+              告诉我们您的机构规模、学员年龄段与当前的声乐教学方式，我们会基于 Demo
+              与原型，为您展示 AI4M 如何融入现有教学体系。
+            </p>
+            <ul class="contact-list">
+              <li data-i18n="contact.item1">
+                了解完整的作业与评估闭环体验
+              </li>
+              <li data-i18n="contact.item2">
+                探讨与现有系统对接与部署方式
+              </li>
+              <li data-i18n="contact.item3">
+                评估试点成本与投入产出
+              </li>
+            </ul>
+          </div>
+          <div class="contact-form">
+            <div class="form-row">
+              <label for="org" data-i18n="contact.form.org.label">
+                机构名称
+              </label>
+              <input
+                id="org"
+                type="text"
+                placeholder="请输入您的机构名称"
+                data-i18n-placeholder="contact.form.org.placeholder"
+              />
+            </div>
+            <div class="form-row">
+              <label for="size" data-i18n="contact.form.size.label">
+                机构规模
+              </label>
+              <select id="size">
+                <option value="" data-i18n="contact.form.size.option0">
+                  请选择大致规模
+                </option>
+                <option data-i18n="contact.form.size.option1">
+                  少于 100 名学员
+                </option>
+                <option data-i18n="contact.form.size.option2">
+                  100–300 名学员
+                </option>
+                <option data-i18n="contact.form.size.option3">
+                  300–800 名学员
+                </option>
+                <option data-i18n="contact.form.size.option4">
+                  800 名以上
+                </option>
+              </select>
+            </div>
+            <div class="form-row form-row-inline">
+              <div class="form-col">
+                <label for="name" data-i18n="contact.form.name.label">
+                  联系人
+                </label>
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="您的姓名"
+                  data-i18n-placeholder="contact.form.name.placeholder"
+                />
+              </div>
+              <div class="form-col">
+                <label for="contact" data-i18n="contact.form.contact.label">
+                  联系方式
+                </label>
+                <input
+                  id="contact"
+                  type="text"
+                  placeholder="邮箱或手机号"
+                  data-i18n-placeholder="contact.form.contact.placeholder"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="message" data-i18n="contact.form.message.label">
+                补充说明
+              </label>
+              <textarea
+                id="message"
+                rows="3"
+                placeholder="简单介绍一下您当前的声乐教学方式、主要痛点或期望解决的问题"
+                data-i18n-placeholder="contact.form.message.placeholder"
+              ></textarea>
+            </div>
+            <button class="btn btn-primary btn-full" type="button">
+              <span data-i18n="contact.form.submit">
+                提交预约（静态展示，暂不保存信息）
+              </span>
+            </button>
+            <p class="form-tip" data-i18n="contact.form.tip">
+              当前为 GitHub Pages 静态演示页面，表单信息不会被实际提交。
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <div class="logo">
+            <div class="logo-mark">
+              <span class="logo-mark-inner">AI</span>
+            </div>
+            <div class="logo-text">
+              <span class="logo-name">AI4M</span>
+              <span class="logo-subtitle" data-i18n="footer.logo.subtitle">
+                AI for Music Education
+              </span>
+            </div>
+          </div>
+          <p class="footer-text" data-i18n="footer.text">
+            AI4M 专注于将 AI 能力落地到音乐教育的每一个练习场景，以可解释的方式帮助老师与学生一起“看见进步”。
+          </p>
+        </div>
+        <div class="footer-right">
+          <div class="footer-col">
+            <div class="footer-title" data-i18n="footer.product.title">
+              产品
+            </div>
+            <a
+              href="#product"
+              class="footer-link"
+              data-i18n="footer.product.item1"
+            >
+              作业与评估闭环
+            </a>
+            <a href="#ai" class="footer-link" data-i18n="footer.product.item2">
+              AI 声乐评估引擎
+            </a>
+            <a
+              href="#scenarios"
+              class="footer-link"
+              data-i18n="footer.product.item3"
+            >
+              典型应用场景
+            </a>
+          </div>
+          <div class="footer-col">
+            <div class="footer-title" data-i18n="footer.coop.title">
+              合作
+            </div>
+            <span
+              class="footer-link footer-link-muted"
+              data-i18n="footer.coop.item1"
+            >
+              音乐院校合作
+            </span>
+            <span
+              class="footer-link footer-link-muted"
+              data-i18n="footer.coop.item2"
+            >
+              机构试点计划
+            </span>
+            <span
+              class="footer-link footer-link-muted"
+              data-i18n="footer.coop.item3"
+            >
+              渠道与品牌合作
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <span data-i18n="footer.bottom.copyright">
+            © 2026 AI4M. All rights reserved.
+          </span>
+          <span class="footer-bottom-meta" data-i18n="footer.bottom.meta">
+            当前版本：Demo 展示 · 不代表最终产品形态
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
