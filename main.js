@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const translations = {
     zh: {
-      'meta.title': 'AI4M · 声乐学习作业平台 - 面向机构的AI声乐教学解决方案',
-      'logo.subtitle': 'Vocal Learning Platform',
+      'meta.title': 'AI4M · VocalAI - 面向机构的AI声乐教学解决方案',
+      'logo.subtitle': 'VocalAI',
       'nav.product': '产品亮点',
       'nav.solution': '解决方案',
       'nav.ai': 'AI 能力',
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'hero.title.line1': '让每一次练声',
       'hero.title.line2': '都有专业 AI 老师陪练',
       'hero.subtitle':
-        'AI4M 将作业布置、练习提交、智能评估与教学数据统一到一套平台中，帮助机构构建标准化的声乐教学闭环，让老师更专注于“教”，让学生更清楚如何“练”。',
+        'VocalAI 将作业布置、练习提交、智能评估与教学数据统一到一套平台中，帮助机构构建标准化的声乐教学闭环，让老师更专注于“教”，让学生更清楚如何“练”。',
       'hero.cta.primary': '预约一对一产品演示',
       'hero.cta.secondary': '了解 AI 评估能力',
       'hero.meta.target.label': '适用对象',
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '支持与示范音频、历史作业的对比分析，提供逐句、逐段的精细化反馈，为专业院校与大型机构提供更高阶的教学工具。',
       'scenarios.title': '典型落地场景',
       'scenarios.subtitle':
-        '将 AI4M 嵌入到声乐教学日常，让“课上教什么、课后怎么练、学得怎么样”有据可依。',
+        '将 VocalAI 嵌入到声乐教学日常，让“课上教什么、课后怎么练、学得怎么样”有据可依。',
       'scenarios.item1.label': '场景一 · 日常练声作业',
       'scenarios.item1.title': '老师 3 步布置，学生随时随地练习',
       'scenarios.item1.text':
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '管理者可以按班级、课程、老师维度查看作业完成情况与平均得分，识别教学瓶颈与课程结构问题，为下一轮课程设计提供依据。',
       'contact.title': '预约一场面向您机构的专属演示',
       'contact.subtitle':
-        '告诉我们您的机构规模、学员年龄段与当前的声乐教学方式，我们会基于 Demo 与原型，为您展示 AI4M 如何融入现有教学体系。',
+        '告诉我们您的机构规模、学员年龄段与当前的声乐教学方式，我们会基于 Demo 与原型，为您展示 VocalAI 如何融入现有教学体系。',
       'contact.item1': '了解完整的作业与评估闭环体验',
       'contact.item2': '探讨与现有系统对接与部署方式',
       'contact.item3': '评估试点成本与投入产出',
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '当前为 GitHub Pages 静态演示页面，表单信息不会被实际提交。',
       'footer.logo.subtitle': 'AI for Music Education',
       'footer.text':
-        'AI4M 专注于将 AI 能力落地到音乐教育的每一个练习场景，以可解释的方式帮助老师与学生一起“看见进步”。',
+        'AI4M 旗下产品 VocalAI，专注于将 AI 能力落地到音乐教育的每一个练习场景，以可解释的方式帮助老师与学生一起“看见进步”。',
       'footer.product.title': '产品',
       'footer.product.item1': '作业与评估闭环',
       'footer.product.item2': 'AI 声乐评估引擎',
@@ -159,8 +159,8 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     en: {
       'meta.title':
-        'AI4M · Vocal Assignment Platform – AI-powered vocal learning for institutions',
-      'logo.subtitle': 'Vocal Learning Platform',
+        'AI4M · VocalAI – AI-powered vocal learning for institutions',
+      'logo.subtitle': 'VocalAI',
       'nav.product': 'Product',
       'nav.solution': 'Solutions',
       'nav.ai': 'AI',
@@ -171,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'hero.title.line1': 'Every vocal exercise',
       'hero.title.line2': 'guided by an AI vocal coach',
       'hero.subtitle':
-        'AI4M connects assignment creation, practice submission, AI evaluation and teaching analytics into one platform, helping institutions build a standardized vocal-learning loop.',
+        'VocalAI connects assignment creation, practice submission, AI evaluation and teaching analytics into one platform, helping institutions build a standardized vocal-learning loop.',
       'hero.cta.primary': 'Book a 1:1 product demo',
       'hero.cta.secondary': 'Learn about AI evaluation',
       'hero.meta.target.label': 'For',
@@ -265,7 +265,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Enable detailed comparisons with reference tracks and past attempts, offering phrase-level feedback for conservatories and large institutions.',
       'scenarios.title': 'Typical deployment scenarios',
       'scenarios.subtitle':
-        'Integrate AI4M into everyday vocal teaching to answer “what to teach, how to practice, and how it went”.',
+        'Integrate VocalAI into everyday vocal teaching to answer “what to teach, how to practice, and how it went”.',
       'scenarios.item1.label': 'Scenario 1 · Daily practice homework',
       'scenarios.item1.title':
         'Three steps for teachers, anytime practice for students',
@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Admins view completion and scoring by class, course and teacher, uncovering bottlenecks and structural issues to refine future curricula.',
       'contact.title': 'Book a tailored demo for your institution',
       'contact.subtitle':
-        'Share your institution size, student profile and current vocal teaching methods, and we will show how AI4M can be embedded into your existing system.',
+        'Share your institution size, student profile and current vocal teaching methods, and we will show how VocalAI can be embedded into your existing system.',
       'contact.item1': 'Experience the full assignment and evaluation loop',
       'contact.item2': 'Discuss integrations and deployment options',
       'contact.item3': 'Estimate pilot scope, cost and ROI',
@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'This is a static GitHub Pages demo. Form data will not be submitted.',
       'footer.logo.subtitle': 'AI for Music Education',
       'footer.text':
-        'AI4M brings AI into every practice scenario in music education, helping teachers and students “see progress” in an interpretable way.',
+        'VocalAI by AI4M brings AI into every practice scenario in music education, helping teachers and students “see progress” in an interpretable way.',
       'footer.product.title': 'Product',
       'footer.product.item1': 'Assignment & evaluation loop',
       'footer.product.item2': 'AI vocal evaluation engine',
